@@ -14,7 +14,7 @@ class NamesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Names"
+        title = "Names"
     }
         
     // MARK: - Table view data source

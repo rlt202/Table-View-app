@@ -13,7 +13,7 @@ class ContactsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         
-        self.title = "Contacts"
+        title = "Contacts"
     }
 
     // MARK: - Table view data source
