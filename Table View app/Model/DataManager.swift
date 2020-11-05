@@ -20,7 +20,7 @@ class DataManager {
             "Max",
             "Egor",
             "Arina"
-        ]
+        ].shuffled()
 
         var surnames = [
             "Ive",
@@ -33,7 +33,7 @@ class DataManager {
             "Verstappen",
             "Letov",
             "Cheked"
-        ]
+        ].shuffled()
     
         var emails = [
             "1@ya.ru",
@@ -46,7 +46,8 @@ class DataManager {
             "321@ya.ru",
             "21@ya.ru",
             "11@ya.ru"
-        ]
+        ].shuffled()
+    
         var phones = [
             "123456789",
             "987654321",
@@ -58,7 +59,8 @@ class DataManager {
             "789123456",
             "891234567",
             "000000000"
-        ]
+        ].shuffled()
     
     static let data = DataManager()
+    
 }
